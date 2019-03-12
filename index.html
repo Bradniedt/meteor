@@ -6,12 +6,18 @@
 </head>
 <body>
 
-  <h1>Meteor</h1>
-  <aside class="login">Login</aside>
-  <aside class="signup">Signup</aside>
-  <section class="current">Current Weather</section>
-  <section class="detail">Detail Weather</section>
-  <section class="daily">Daily</section>
+  <h1 class="title">Meteor</h1>
+  <section>
+    <a class="login">Login</a>
+    <a class="signup">Signup</a>
+  </section>
+  <section class="forecast">
+    <form>
+      <input type="text" value="Enter a location" id="location"></br>
+      <input type="submit" id="submit-forecast">
+    </form>
+  </section>
+
 
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
