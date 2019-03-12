@@ -1,4 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-  background: blue;
+  width: 100%;
+  height: 100%;
+  background: #FBFFF1;
+  font-family: verdana;
+  color: #3C3744;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+input {
+  margin: 10px;
+}
+
+.title {
+  margin: 20px;
+}
+
+a:hover {
+  background: #090C9B;
+  color: #FBFFF1;
+  border-radius: 5px;
+}
+
+.login, .signup {
+  margin: 10px;
+  padding: 5px;
+}
+
+.forecast {
+  margin: 10px;
+}
+
+#location {
+  width: 150px;
+  height: 30px;
+  font-size: 1em;
+  border: 1px solid #3D52D5;
+  border-radius: 5px;
+}
+
+#submit-forecast {
+  padding: 5px;
+  font-size: 1em;
+  background: #FBFFF1;
+  color: #3C3744;
+  border: none;
+}
+
+#submit-forecast:hover {
+  background: #090C9B;
+  color: #FBFFF1;
+  border-radius: 5px;
 }
