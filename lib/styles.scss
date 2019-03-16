@@ -37,18 +37,22 @@ a:hover {
   margin: 10px;
 }
 
-#current {
+#current, #detail, #daily{
   display: none;
-  border: 1px solid red;
   width: 90%;
   margin-left: 5%;
 }
 
+#current {
+  border: 1px solid red;
+}
+
 #detail {
-  display: none;
   border: 1px solid blue;
-  width: 90%;
-  margin-left: 5%;
+}
+
+#daily {
+  border: 1px solid green;
 }
 
 #location {
