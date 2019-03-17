@@ -18,9 +18,17 @@ input {
   margin: 10px;
 }
 
-div {
-  border: 1px solid green;
-  margin: 15px;
+table {
+  width: 90%;
+  margin-left: 5%;
+}
+
+td {
+  padding: 5px;
+}
+
+h3 {
+  margin-bottom: 10px;
 }
 
 .title {
@@ -49,22 +57,54 @@ a:hover {
 }
 
 #current {
-  border: 1px solid red;
-  background-image: url(https://media2.giphy.com/media/alEGxmahCCywE/giphy-downsized.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: 50% 50%;
-  height: 250px;
-  opacity: 0.6;
+  text-align: left;
+  border-radius: 10px;
+  background: #B4C5E4;
+  height: 300px;
   margin-bottom: 15px;
   margin-top: 15px;
+  padding: 10px;
+  font-size: 1.3em;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-#detail {
-  border: 1px solid blue;
+#gif-header {
+  border-radius: 10px;
+  background: #B4C5E4;
+  display: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1.3em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#gif {
+  display: none;
+  width: 90%;
+  // background-image: url(https://media2.giphy.com/media/alEGxmahCCywE/giphy-downsized.gif);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // position: 50% 50%;
+  border-radius: 10px;
+  height: 300px;
+  margin-left: 5%;
+  margin-bottom: 15px;
 }
 
 #daily {
+  background: #B4C5E4;
+  color: #3C3744;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#current:hover, #daily:hover {
+  border: 2px solid #3D52D5;
+  border-radius: 10px;
 }
 
 #location {
