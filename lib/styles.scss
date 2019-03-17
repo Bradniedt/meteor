@@ -50,7 +50,14 @@ a:hover {
 
 #current {
   border: 1px solid red;
-  margin: 15px;
+  background-image: url(https://media2.giphy.com/media/alEGxmahCCywE/giphy-downsized.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: 50% 50%;
+  height: 250px;
+  opacity: 0.6;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 #detail {
