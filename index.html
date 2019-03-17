@@ -8,15 +8,40 @@
 
   <h1 class="title">Meteor</h1>
   <section>
-    <a class="login">Login</a>
-    <a class="signup">Signup</a>
+    <a id="login">Login</a>
+    <a id="signup">Signup</a>
   </section>
-  <section class="forecast">
-    <form>
-      <input type="text" value="Enter a location" id="location"></br>
-      <input type="submit" id="submit-forecast">
-    </form>
-  </section>
+
+  <section id="forecast-box">
+      <section class="forecast">
+        <form>
+          <input type="text" placeholder="Enter a location" id="location"></br>
+          <input type="submit" id="submit-forecast">
+        </form>
+      </section>
+
+      <section id="current">
+        <p id="current-temp">hello</p>
+        <p id="current-city"></p>
+        <p id="current-summary"></p>
+        <img src="" alt="weather gif" width="100" height="100" id="weather-gif">
+      </section>
+      <section id="detail">
+        <p id="detail-humidity"></p>
+        <p id="detail-description"></p>
+      </section>
+      <section id="daily">
+      </section>
+    </section>
+
+    <section id="signup-box">
+      <form>
+        <input type="text" placeholder="Email" id="email"></br>
+        <input type="text" placeholder="password" id="password1"></br>
+        <input type="text" placeholder="password confirm" id="password2"></br>
+        <input type="submit" id="submit-signup">
+      </form>
+    </section>
 
 
     <script

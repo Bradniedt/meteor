@@ -18,6 +18,11 @@ input {
   margin: 10px;
 }
 
+div {
+  border: 1px solid green;
+  margin: 15px;
+}
+
 .title {
   margin: 20px;
 }
@@ -28,13 +33,31 @@ a:hover {
   border-radius: 5px;
 }
 
-.login, .signup {
+#login, #signup {
   margin: 10px;
   padding: 5px;
 }
 
 .forecast {
   margin: 10px;
+}
+
+#current, #detail, #daily{
+  display: none;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#current {
+  border: 1px solid red;
+  margin: 15px;
+}
+
+#detail {
+  border: 1px solid blue;
+}
+
+#daily {
 }
 
 #location {
@@ -45,7 +68,7 @@ a:hover {
   border-radius: 5px;
 }
 
-#submit-forecast {
+#submit-forecast, #submit-signup {
   padding: 5px;
   font-size: 1em;
   background: #FBFFF1;
@@ -53,8 +76,21 @@ a:hover {
   border: none;
 }
 
-#submit-forecast:hover {
+#submit-forecast:hover, #submit-signup:hover {
   background: #090C9B;
   color: #FBFFF1;
+  border-radius: 5px;
+}
+
+#signup-box {
+  display: none;
+  margin-top: 20px;
+}
+
+#email, #password1, #password2 {
+  width: 175px;
+  height: 30px;
+  font-size: 1em;
+  border: 1px solid #3D52D5;
   border-radius: 5px;
 }
