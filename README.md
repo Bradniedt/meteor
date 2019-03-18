@@ -1,79 +1,49 @@
-# Self-Directed Front-End Start Kit
+# Meteor
+A Turing School solo project created with Html, JavaScript, CSS, and the SweaterWeatherAPI.
 
-## Initial Setup
 
-1. Clone this starter kit repository and rename the repository to anything you'd like in one command:
+Contributors:
+* Bradley Niedt
 
-  ```shell
-  git clone git@github.com:turingschool-projects/self-directed-fe-starter.git <name of your choice>
-  ```
-2. Change into the new director directory.
 
-3. Remove the default remote (origin):
+# About Meteor
 
-  ```shell
-  git remote rm origin
-  ```
+Meteor is a one-page weather app that serves data from the SweaterWeatherAPI. A user can get forecasts of any city they want to get the current weather as well as the forecast for the next week. 
 
-4. Create a new repository on GitHub.
 
-5. Add your new repository remote - **your remote URL and user name will be different in the command below**
+## Getting Started
 
-  ```shell
-  git remote add origin git@github.com:<YOUR GITHUB NAME>/<PROJECT NAME>.git
-  ```
+### Clone down
 
-6. Install the dependencies of the starter kit:
+* `git clone https://github.com/Bradniedt/meteor.git`
+* `cd meteor`
+* Run :
 
-  ```shell
-  npm install
-  ```
+```
+npm install
+```
 
-7. Add, commit, and push up to your repository:
+* then:
 
-  ```shell
-  git add .
-  git commit -m "Initial commit using starter kit"
-  git push origin master
-  ```
+```
+npm run build
+```
 
-## Running the Server Locally
 
-To see your code in action locally, you need to fire up a development server. Use the command:
+## Starting the app
 
-```shell
+* Run:
+
+```
 npm start
 ```
 
-Once the server is running, visit in your browser:
-
-* `http://localhost:8080/` to run your application.
+* then visit localhost:8080
 
 
-## GitHub Pages Setup
+## Created with
 
-This site will be served from GitHub Pages in production.
-
-In order to see your application running on production:
-
-1. From the command line, run `npm run build`.
-
-2. Commit and push your application to GitHub.
-
-3. Visit your repository on Github
-
-4. Go to Settings
-
-5. Under the Github Pages section of Options, select 'master' as your source and click `Save`
-
-Be sure to `npm run build` and commit before each push to master. A few seconds after you push up, you should be able to see your application at <https://your-github-username.github.io/project-name>.
-
-
-## Built With
-
-* [JavaScript](https://www.javascript.com/)
-* [jQuery](https://jquery.com/)
-* [Express](https://expressjs.com/)
-* [Mocha](https://mochajs.org/)
-* [Chai](https://chaijs.com/)
-
+* HTML
+* JavaScript
+* CSS
+* SweaterWeatherAPI
