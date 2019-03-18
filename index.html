@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Meteor</title>
 </head>
-<body>
+<body id="the-body">
 
   <h1 class="title">Meteor</h1>
   <section>
@@ -21,16 +21,73 @@
       </section>
 
       <section id="current">
-        <p id="current-temp">hello</p>
         <p id="current-city"></p>
+        <p id="current-temp"></p>
         <p id="current-summary"></p>
-        <img src="" alt="weather gif" width="100" height="100" id="weather-gif">
-      </section>
-      <section id="detail">
         <p id="detail-humidity"></p>
         <p id="detail-description"></p>
       </section>
+      <section id="gif-header">
+        <h4>Today's weather GIF:</h4>
+      </section>
+      <section id="gif">
+      </section>
       <section id="daily">
+        <h3>Weather for the rest of the week:</h3>
+        <table id="daily-table">
+          <th>Day</th>
+          <th>High (deg.)</th>
+          <th>Low (deg.)</th>
+          <th>Precipitation</th>
+          <tr>
+            <td id="day0"></td>
+            <td id="high0"></td>
+            <td id="low0"></td>
+            <td id="precip0"></td>
+          </tr>
+          <tr>
+            <td id="day1"></td>
+            <td id="high1"></td>
+            <td id="low1"></td>
+            <td id="precip1"></td>
+          </tr>
+          <tr>
+            <td id="day2"></td>
+            <td id="high2"></td>
+            <td id="low2"></td>
+            <td id="precip2"></td>
+          </tr>
+          <tr>
+            <td id="day3"></td>
+            <td id="high3"></td>
+            <td id="low3"></td>
+            <td id="precip3"></td>
+          </tr>
+          <tr>
+            <td id="day4"></td>
+            <td id="high4"></td>
+            <td id="low4"></td>
+            <td id="precip4"></td>
+          </tr>
+          <tr>
+            <td id="day5"></td>
+            <td id="high5"></td>
+            <td id="low5"></td>
+            <td id="precip5"></td>
+          </tr>
+          <tr>
+            <td id="day6"></td>
+            <td id="high6"></td>
+            <td id="low6"></td>
+            <td id="precip6"></td>
+          </tr>
+          <tr>
+            <td id="day7"></td>
+            <td id="high7"></td>
+            <td id="low7"></td>
+            <td id="precip7"></td>
+          </tr>
+        </table>
       </section>
     </section>
 
